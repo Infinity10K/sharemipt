@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void findRoots(double a, double b, double c){
+void findRoots(float a, float b, float c){
     if (a == 0)
         printf("It is not quadratic equation!");
         
