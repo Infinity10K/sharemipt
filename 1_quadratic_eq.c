@@ -10,7 +10,7 @@ void findRoots(float a, float b, float c){
         float aa = 2 * a;
         
         if (D == 0)
-            printf("x1 = x2 = %.3f", b / aa);
+            printf("x1 = x2 = %.3f", - b / aa);
             
         else if (D > 0) {
             float sD = sqrt(D);
